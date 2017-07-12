@@ -1,5 +1,5 @@
 /// <reference path="../libs/stats.d.ts"/>
-/// <reference path="../libs/pixi_3.0/dts/pixi.js.d.ts"/>
+/// <reference path="../libs/pixi/dts/pixi.js.d.ts"/>
 /// <reference path="../libs/tween.js.d.ts"/>
 /// <reference path="./game/GameMain.ts"/>
 
