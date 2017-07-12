@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+    <meta name="viewport" content="width=640, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=640">
+    -->
+    <link rel="stylesheet" type="text/css" href="./src/main.css" />
+    <script type='text/javascript'>
+        window.onload = function ()
+        {
+            new Main(UtilWindow.getWindowWidth() , './src/images/');
+        };
+    </script>
+    <script type='text/javascript' src="./libs/stats.min.js"></script>
+    <script type='text/javascript' src="./libs/pixi/pixi-4.5.1.min.js"></script>
+    <script type='text/javascript' src="./libs/tween.min.js"></script>
+    <script type='text/javascript' src="./myLibs/UtilWindow.js"></script>
+    <script type='text/javascript' src="./src/Main.js"></script>
+    <script type='text/javascript' src="./src/game/DataObject.js"></script>
+    <script type='text/javascript' src="./src/game/StubData.js"></script>
+    <script type='text/javascript' src="./src/game/GameLogic.js"></script>
+    <script type='text/javascript' src="./src/game/MyInteractionManager.js"></script>
+    <script type='text/javascript' src="./src/game/NumberSprite.js"></script>
+    <script type='text/javascript' src="./src/game/ViewCore.js"></script>
+    <script type='text/javascript' src="./src/game/ButtonView.js"></script>
+    <script type='text/javascript' src="./src/game/PopupViewCore.js"></script>
+    <script type='text/javascript' src="./src/game/PopupSkillView.js"></script>
+    <script type='text/javascript' src="./src/game/DeckView.js"></script>
+    <script type='text/javascript' src="./src/game/FightView.js"></script>
+    <script type='text/javascript' src="./src/game/EnemyView.js"></script>
+    <script type='text/javascript' src="./src/game/PanelView.js"></script>
+    <script type='text/javascript' src="./src/game/EffectCircleView.js"></script>
+    <script type='text/javascript' src="./src/game/EffectExplosionsView.js"></script>
+    <script type='text/javascript' src="./src/game/EffectAttackView.js"></script>
+    <script type='text/javascript' src="./src/game/GaugeView.js"></script>
+    <script type='text/javascript' src="./src/game/GameMain.js"></script>
+
+<body>
+<div id="container">
+    <div id="main"></div>
+    <div id="stats"></div>
+</div>
+</body>
+</html>
